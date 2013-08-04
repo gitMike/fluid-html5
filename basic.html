@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset='UTF-8'>
+	
+	<title>Basic HTML5 Outline </title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="css/site.css">
+	<link rel="stylesheet" href="css/media_queries.css">
+	
+	<!--[if !IE]><!-->
+	<style>
+
+	</style>
+	<!--<![endif]-->
+	<!--  http://webdesignerwall.com/tutorials/responsive-design-with-css3-media-queries  
+		Starting from this set of css and working forward to what I need
+	-->
+</head>
+
+<body>
+	<!-- There can be only one of thes -->
+	<main>
+		<div id="page-wrap">
+			
+			<header id="header">
+
+				<hgroup>
+					<h1 id="site-logo"><a href="#">Demo</a></h1>
+					<h2 id="site-description">Site Description</h2>
+				</hgroup>
+
+				<nav>
+					<ul id="main-nav" class="clearfix">
+						<li><a href="http://home.org">Home</a></li>
+						<li><a href="http://fileResource/dataFiles">Data Files</a></li>
+						<li><a href="http://fileResource/resultFiles">Result Files</a> </li>
+						<li><a href="http://mikeJobs/currentJobs">Current Jobs</a></li>
+						<li><a href="http://mikeJobs/scheduleJobs">Schedule Jobs</a></li>
+					</ul>
+					<!-- /#main-nav --> 
+				</nav>
+
+				<form id="searchform">
+					<input type="search" id="s" placeholder="Search">
+				</form>
+
+			</header>
+			<!-- /#header -->
+
+			<aside id="sidebar">
+
+				<section class="contact-items">
+					<h4 class="contact_title">Contact Info</h4>
+					<p> Blah, Blah, Blah, BEER </p>
+					<ul>
+						<li><a href="#">EMail</a> us@here.there</li>
+						<li>Phone: 111.333.4444</li>
+						<li>Office BigCardboardBox #40</li>
+					</ul>
+				</section>
+				<!-- /.contact -->
+
+				<section class="howto-items">
+					<h4 class="contact_title">HOWTO Doc Links</h4>
+					<p> Blah, Blah, Blah, BEER </p>
+					<ul>
+						<li><a href="#">Create</a> Data Files</li>
+						<li><a href="#">Query</a> Data Structures</li>
+						<li><a href="#">Query-Logic</a> Nomenclature</li>
+					</ul>
+				<!-- /.howto-items -->
+
+				<section class="application-info-items">
+					<h4 class="contact_title">Application Build</h4>
+					<ul>
+						<li>Release Version: rel-0.0.1v </li>
+						<li><a href="#">Release Version Notes</a>Notes</li>
+						<li>Release Date <time class="post-date" datetime="2011-05-08" pubdate>May 8, 2011</time> </li>
+					</ul>
+				<!-- /.application-info-items -->
+			</aside>
+			<!-- /#sidebar -->
+
+			<div id="content">
+				<h2> Welcome - Mikes Example Page</h2>
+				<article class="post clear">
+					<header>
+						<hgroup>
+						<h1 class="post-title"><a href="#">Just a Post Title</a></h1>
+						<p class="post-meta"><time class="post-date" datetime="2011-05-08" pubdate>May 8, 2011</time> <em>in</em> <a href="#">Expect new release</a></p>
+						<h1 class="post-title"><a href="#">Just a Post Title</a></h1>
+						<p class="post-meta"><time class="post-date" datetime="2011-05-08" pubdate>May 8, 2011</time> <em>in</em> <a href="#">Expect new release</a></p>						
+						<h1 class="post-title"><a href="#">Just a Post Title</a></h1>
+						<p class="post-meta"><time class="post-date" datetime="2011-05-08" pubdate>May 8, 2011</time> <em>in</em> <a href="#">Expect new release</a></p>						
+						</hgroup>
+					</header>
+				</article>
+			</div>
+		</div>
+	</main>
+		
+</body>
+
+</html>
